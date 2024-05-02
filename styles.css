@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: white;
+}
+.logo{
+    width: 150px;
+}
+.header-main{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 245px;
+}
+.producto-aseo{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    overflow-x: scroll;  
+}
+.descript {
+    font-size: x-small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(106, 101, 101);
+    font-weight: 200;
+}
+.section-aseo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0 48px
+}
+
+@media screen and (max-width: 750px) {
+    .header-main h1 {
+        display: none;
+    }
+
+    .section-aseo h2 {
+        font-size: small; 
+    }
+}
