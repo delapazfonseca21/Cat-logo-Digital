@@ -3,21 +3,36 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
     background-color: white;
 }
-.logo{
-    width: 150px;
-}
-.header-main{
-    padding: 20px 30px;
-    display: flex;
-    align-items: center;
-}
 
 img {
-    width: 245px;
+    width: 245px;   
 }
+
+/* Encabezado de la pagina */
+
+.logo{
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 40px;
+
+    
+}
+header{
+    padding: 0 0 0 350px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 ;
+    position: relative;
+    height: 120px;
+}
+
+/* cuerpo de la pagina  */
+
 .producto-aseo{
     display: flex;
     gap: 40px;
@@ -41,7 +56,7 @@ img {
 }
 
 @media screen and (max-width: 750px) {
-    .header-main h1 {
+    header {
         display: none;
     }
 
