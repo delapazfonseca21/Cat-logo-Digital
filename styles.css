@@ -48,17 +48,26 @@ header h1 {
     border-radius: 50px;
     background-color: #ffff;
     outline: solid rgb(255, 255, 255) 0;
-    box-shadow: -1px 1px 3px black;
+    box-shadow: -1px 1px 2px rgb(130, 128, 128);
 }
 
-.contenedor-busqueda div {
-    height:25px;
-    width: 25px;
-    background-color: rgb(222, 5, 5);
-    color: #ffff;
-    border-radius: 4px;
+.form-busqueda {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.form-busqueda button {
+    background-color: rgb(222, 40, 40);
+    color: #ffff;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+button svg {
+    display: flex;
     align-items: center;
 }
 
