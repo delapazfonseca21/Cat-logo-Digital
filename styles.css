@@ -74,6 +74,7 @@ header h1 {
     justify-content: center;
     width: 200px;
     height: 260px;
+    overflow: hidden;
 }
 
 .precio-producto {
@@ -96,7 +97,7 @@ header h1 {
 }
 
 #btn-compra {
-    height: 40px;  /*se establece por defecto altura, puede retirarse */
+    height: 40px;  /*se altura de botón */
     padding: 0px 63px;
     background-color: rgb(241, 24, 24);
     color: #ffff;
